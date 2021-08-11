@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Intranet">
+    <meta name="author" content="Trading Academy">
+    <title>Intranet Ilustre Municipalidad de Nacimiento</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- CSS ME -->
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.nacimiento.cl/index.php/es/">Ilustre Municipalidad de Nacimiento</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="scripts/iniciar-sesion.php" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="Usuario" class="form-control" name="txtUsuario">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Contraseña" class="form-control" name="txtClave">
+            </div>
+            <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+            <button type="reset" name="btn-reset" class="btn btn-success" value="Limpiar Campos">Limpiar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <font color="#3BA721">
+        <h1>Bienvenido a la Intranet de la Municipalidad de Nacimiento</h1>
+      </font>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="imagenes/logo.jpg"  style="width:50%;height:50%;">
+      <hr>
+      <footer>
+        <p>&copy; Design By Me</p>
+      </footer>
+    </div> 
+
+    <!-- /container -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
