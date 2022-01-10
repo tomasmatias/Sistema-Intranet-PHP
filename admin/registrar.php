@@ -1,18 +1,21 @@
-<?php 
-require '../scripts/funciones.php';
-if(! haIniciadoSesion() || ! esAdmin() )
-{
-header('Location: index.html');
-}
-$conexion = mysql_connect('localhost','root','','intranet');
-mysql_select_db('intranet',$conexion);
-$sentencia = "SELECT * FROM cargo order by cod_cargo asc";
-$query = mysql_query($sentencia);
-
-conectar();
-$usuarios = getUsuario();
-desconectar();
+<?php
+    $user="root";
+    $password="";
+    $bd="intranet";
+    $sv="localhost";
+    
+    $obj_conexion = 
+    mysqli_connect($sv,$user,$password,$sv);
+    if(!$obj_conexion)
+    {
+        echo "<h3>No se ha podido conectar PHP - MySQL, verifique sus datos.</h3><hr><br>";
+    }
+    else
+    {
+        echo "";
+    }
 ?>
+
 
 <!DOCTYPE html>
 
