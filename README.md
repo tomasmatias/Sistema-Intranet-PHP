@@ -1,8 +1,6 @@
 # intranet
-proyecto intranet php mysql
 
-
-Prototipo de Intranet creada para una municipalidad con creacion de archivos dentro de la misma y asignacion de permisos
+Intranet creada en php con base de datos mysql para una municipalidad con creacion de archivos dentro de la misma y asignacion de permisos
 ________________________________________________________________________________________________________________________
 
 Usuario con permiso de administrador para ingresar, puede agregar usuarios, subir archivos, editar y eliminar secciones:
