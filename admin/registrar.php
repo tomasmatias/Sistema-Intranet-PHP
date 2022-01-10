@@ -4,8 +4,7 @@
     $bd="intranet";
     $sv="localhost";
     
-    $obj_conexion = 
-    mysqli_connect($sv,$user,$password,$bd);
+    $obj_conexion = mysqli_connect($sv,$user,$password,$bd);
     if(!$obj_conexion)
     {
         echo "<h3>No se ha podido conectar PHP - MySQL, verifique sus datos.</h3><hr><br>";
