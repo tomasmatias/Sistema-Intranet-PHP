@@ -1,10 +1,17 @@
 <?php
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "dbtuts";
+$dbhost ="localhost";
+$dbuser ="root";
+$dbpass ="";
+$dbname ="dbtuts";
 
-mysql_connect($dbhost,$dbuser,$dbpass) or die('Imposible conectarse al servidor.'); 
-mysql_select_db($dbname) or die('Problema de seleccion de base de datos.');
+$obj_conexion = mysqli_connect($dbhost,$dbuser,$dbpass);
+if(!$obj_conexion)
+{
+    echo "<h3>No se ha podido conectar PHP - MySQL, verifique sus datos.</h3><hr><br>";
+}
+else
+{
+    echo "";
+}
 
 ?>
