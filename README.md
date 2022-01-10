@@ -7,4 +7,5 @@ Prototipo de Intranet creada para una municipalidad con creacion de archivos den
 Usuario creado para ingresar:
 
 User: admin
+
 Password: 123
